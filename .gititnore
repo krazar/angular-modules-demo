@@ -1,9 +1,0 @@
-node_modules/
-prod/
-app/vendor/
-dist/
-idea/
-.tmp/
-temp/
-tmp/
-*.colt
