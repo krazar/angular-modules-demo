@@ -1,0 +1,29 @@
+<div>
+    <section>
+        <h1 translate>AngularJS Demo</h1>
+
+        <p translate>Today, let's take a look at angular-gettext translate module</p>
+    </section>
+
+    <div>
+        <form class="form-inline" role="form">
+            <div class="form-group">
+                <label for="search" translate>Search: </label>
+                <input id="search" class="form-control" type="text" ng-model="customerText"
+                       placeholder="{{'Enter info here'|translate}}"/>
+            </div>
+            <div class="form-group">
+                <label for="nbResult">Limit</label>
+                <input id="nbResult" type="range" min="0" max="10" step="1" ng-model="nbResult">
+            </div>
+            <br/>
+        </form>
+        <h3 translate>Customers:</h3>
+        <table class="table table-striped">
+            <tr class="animate-repeat" ng-repeat="cust in customers |filter:customerText |orderBy:'name' |limitTo:nbResult">
+                <td><a ng-href="#/orders/{{cust.id}}">{{cust.name}}</a></td>
+                <td>{{cust.total |currency:"€"}}</td>
+            </tr>
+        </table>
+    </div>
+</div>

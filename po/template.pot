@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: app/views/customers.html
+msgid "AngularJS Demo"
+msgstr ""
+
+#: app/views/orders.html
+msgid "Back to customers"
+msgstr ""
+
+#: app/views/customers.html
+msgid "Customers:"
+msgstr ""
+
+#: app/views/customers.html
+msgid "Enter info here"
+msgstr ""
+
+#. Title
+#: app/views/orders.html
+msgid "Orders for this customer"
+msgstr ""
+
+#: app/views/customers.html
+msgid "Search:"
+msgstr ""
+
+#: app/views/orders.html
+msgid "There are no orders yet for that customer"
+msgstr ""
+
+#: app/views/customers.html
+msgid "Today, let's take a look at angular-gettext translate module"
+msgstr ""

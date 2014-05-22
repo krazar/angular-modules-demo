@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: app/views/customers.html
+msgid "AngularJS Demo"
+msgstr "Démo de AngularJS"
+
+#: app/views/orders.html
+msgid "Back to customers"
+msgstr "Retour aux clients"
+
+#: app/views/customers.html
+msgid "Customers:"
+msgstr "Clients"
+
+#: app/views/customers.html
+msgid "Enter info here"
+msgstr "Entrez une information içi"
+
+#. Title
+#: app/views/orders.html
+msgid "Orders for this customer"
+msgstr "Les commandes de ce client"
+
+#: app/views/customers.html
+msgid "Search:"
+msgstr "Rechercher:"
+
+#: app/views/orders.html
+msgid "There are no orders yet for that customer"
+msgstr "Il y n'existe aucune commande pour ce client"
+
+#: app/views/customers.html
+msgid "Today, let's take a look at angular-gettext translate module"
+msgstr "Aujourd'hui, jetons un oeil au module de traduction angular-gettext"
