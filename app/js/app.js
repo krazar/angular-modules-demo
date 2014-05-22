@@ -9,10 +9,10 @@
 
     app.config(function ($routeProvider) {
         $routeProvider.when('/', {
-            templateUrl: '/views/customers.html',
+            templateUrl: 'views/customers.html',
             controller: 'CustomersController'
         }).when('/orders/:customerId', {
-            templateUrl: '/views/orders.html',
+            templateUrl: 'views/orders.html',
             controller: 'OrdersController'
         });
 
